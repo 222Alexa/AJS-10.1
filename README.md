@@ -92,3 +92,9 @@ GameSavingLoader.load().then((saving) => {
 ```
 
 ---
+
+### Promises
+
+[![Build status](https://ci.appveyor.com/api/projects/status/mq7awi7tvp5n5p9f/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ajs-10-1-6oiyo/branch/main)
+
+---
