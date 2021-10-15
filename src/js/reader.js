@@ -13,6 +13,6 @@ export default function read() {
         }
         resolve(buffer);
       })(data);
-    }, 1000);
+    }, 10000);
   });
 }
