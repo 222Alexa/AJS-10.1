@@ -1,7 +1,8 @@
 import GameSavingLoader from "./GameSavingLoader";
+import GameSaving from "./GameSaving";
 
 GameSavingLoader.load()
-  .then((saving) => resolve(new GameSaving(saving)))
+  .then((saving) => new GameSaving(saving))
   .catch((error) => {
     throw new Error(error.message);
   });

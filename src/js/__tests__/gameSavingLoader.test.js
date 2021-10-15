@@ -20,8 +20,8 @@ test("create new GameSaving", () => {
 
 test("load() возвращает корректные данные", async () => {
   const result = JSON.parse(data);
-  GameSavingLoader.load().then((data) => {
-    expect(data).toEqual(result);
-    done();
+
+  GameSavingLoader.load().then((saving) => {
+    expect(saving).toEqual(result);
   });
 });
